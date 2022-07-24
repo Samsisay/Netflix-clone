@@ -1,0 +1,65 @@
+<div className="left">
+          <ul className="d-flex flist">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">TV Shows</a>
+            </li>
+            <li>
+              <a href="#">Movies</a>
+            </li>
+            <li>
+              <a href="#">New & Popular</a>
+            </li>
+            <li>
+              <a href="#">My List</a>
+            </li>
+            <li>
+              <a href="#">Audio & Subtitles</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="right">
+          <ul className="d-flex">
+            <li>
+              <a href="#">
+                <img className="search_icon" src="" alt="Search logo" />
+              </a>
+            </li>
+            <li>
+              <a href="#">Kids</a>
+            </li>
+            <li>
+              <a href="#">DVD</a>
+            </li>
+            <li>
+              <a href="#">
+                <img className="bell_icon" src="" alt="Bell logo" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+.nav ul li {
+  list-style: none;
+  margin-right: 20px;
+  margin-bottom: 20px; 
+}
+.nav ul a {
+  text-decoration: none;
+  color: white;
+} 
+.flist {
+  /* margin: 0; */
+  margin-left: 120px;
+  padding: 0;
+  /* align-items: center; */
+  
+}
+/* .left { 
+  left: 20px;
+  margin-left: 100px;
+}  */
